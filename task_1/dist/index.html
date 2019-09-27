@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/bundle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="alternate-box">
+            <span id="message-disable" class="message-disabled"></span>
+            <span id="message-alternate" class="message-text"></span>
+        </div>
+        <div class="list-box">
+            <ul id="messages">
+            </ul>
+        </div>
+        <div class="sender-box">
+            <div>
+                <input id="new-message-text" autofocus placeholder="Write a message ... (press Enter to send)"/>
+            </div>
+            <div>
+                <button id="new-message-send" disabled>Send</button>
+            </div>
+        </div>
+        <template id="message-template">
+            <li class="message"><span class="message-disabled"></span><span class="message-text"></span></li>
+        </template>
+    </div>
+    <script src="js/bundle.js"></script>
+</body>
+</html>

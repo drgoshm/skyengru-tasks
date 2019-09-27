@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Light;
+    src: url(fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(fonts/Roboto-Medium.ttf);
+}
+
+
+.tg  {border-collapse:collapse;border-spacing:0; margin-bottom: 5rem;width: 100%}
+.tg td{padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-8koo{background-color:#cbcefb;border-color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-7d8s{color:#34696d;border-color:#ffffff;text-align:left;vertical-align:top}
+.tg .tg-s2b2{background-color:#cbcefb;color:#34696d;border-color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-x9q6{color:#34696d;border-color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-8jgo{border-color:#ffffff;text-align:center;vertical-align:top}
+.negative {background-color: #eec4c4;}
+.positive {background-color: #c4eed1;}
+
+.container {
+    margin: 0 10vw;
+    display: flex;
+    justify-content: center;
+}
+.chart-container { 
+    flex: 1 1 auto; 
+}
+.detail-box {
+    padding-top: 3.2rem;
+    max-width: 660px;
+}
+
+h2 {
+    color: gray;
+    font-size: 1em;
+}
+p {
+    color: gray;
+}
+
+@media screen and (max-width:1200px) {
+    .container {
+        margin: 0;
+        display: flex;
+    }
+    .detail-box {
+        padding-top: 3.2rem;
+    }
+}
+
+@media screen and (max-width:992px){
+    .container {
+        margin: 0 10rem;
+        display: block;
+    }
+    .detail-box {
+        padding-top: 0rem;
+        margin: 0 auto;
+        text-align: -webkit-center;
+    }
+    p {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:768px){
+    .container {
+        margin: 0 0rem;
+        display: block;
+    }
+}
+
